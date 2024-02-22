@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>lODER</title>
+    <style>
+      body {
+        background-color: black;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+      }
+      .l {
+        color: white;
+        opacity: 0;
+        animation: pass 2s ease-in-out infinite;
+        animation-delay: 0.2s;
+        letter-spacing: 0.5em;
+      }
+
+      .o {
+        color: white;
+        opacity: 0;
+        animation: pass 2s ease-in-out infinite;
+        animation-delay: 0.4s;
+        letter-spacing: 0.5em;
+      }
+
+      .a {
+        color: white;
+        opacity: 0;
+        animation: pass 2s ease-in-out infinite;
+        animation-delay: 0.6s;
+        letter-spacing: 0.5em;
+      }
+
+      .d {
+        color: white;
+        opacity: 0;
+        animation: pass 2s ease-in-out infinite;
+        animation-delay: 0.8s;
+        letter-spacing: 0.5em;
+      }
+
+      .i {
+        color: white;
+        opacity: 0;
+        animation: pass 2s ease-in-out infinite;
+        animation-delay: 1s;
+        letter-spacing: 0.5em;
+      }
+
+      .n {
+        color: white;
+        opacity: 0;
+        animation: pass 2s ease-in-out infinite;
+        animation-delay: 1.2s;
+        letter-spacing: 0.5em;
+      }
+
+      .g {
+        color: white;
+        opacity: 0;
+        animation: pass 2s ease-in-out infinite;
+        animation-delay: 1.4s;
+        letter-spacing: 0.5em;
+      }
+
+      .d1 {
+        color: white;
+        opacity: 0;
+        animation: pass1 2s ease-in-out infinite;
+        animation-delay: 1.6s;
+        letter-spacing: 0.5em;
+      }
+
+      .d2 {
+        color: white;
+        opacity: 0;
+        animation: pass1 2s ease-in-out infinite;
+        animation-delay: 2s;
+        letter-spacing: 0.5em;
+      }
+
+      @keyframes pass {
+        0% {
+          opacity: 1;
+        }
+
+        50% {
+          opacity: 0;
+        }
+
+        100% {
+          opacity: 1;
+        }
+      }
+
+      @keyframes pass1 {
+        0% {
+          opacity: 1;
+        }
+
+        50% {
+          opacity: 0;
+        }
+
+        100% {
+          opacity: 1;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="loader">
+      <span class="l">L</span>
+      <span class="o">o</span>
+      <span class="a">a</span>
+      <span class="d">d</span>
+      <span class="i">i</span>
+      <span class="n">n</span>
+      <span class="g">g</span>
+      <span class="d1">.</span>
+      <span class="d2">.</span>
+    </div>
+  </body>
+</html>
